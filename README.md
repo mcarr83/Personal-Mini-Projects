@@ -1,2 +1,2 @@
 ﻿# Personal-Mini-Projects
-Using Clion
+LLink was done using Clion
