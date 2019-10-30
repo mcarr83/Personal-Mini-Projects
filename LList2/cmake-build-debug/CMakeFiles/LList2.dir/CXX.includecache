@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/admin/OneDrive/Desktop/new415/LList2/LList.cpp
+iostream
+-
+string
+-
+LList.h
+/cygdrive/c/Users/admin/OneDrive/Desktop/new415/LList2/LList.h
+
+/cygdrive/c/Users/admin/OneDrive/Desktop/new415/LList2/LList.h
+iostream
+-
+cstdlib
+-
+string
+-
+
+/cygdrive/c/Users/admin/OneDrive/Desktop/new415/LList2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+LList.h
+/cygdrive/c/Users/admin/OneDrive/Desktop/new415/LList2/LList.h
+
