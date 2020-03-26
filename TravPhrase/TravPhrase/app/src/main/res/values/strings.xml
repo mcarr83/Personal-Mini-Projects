@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TravPhrase</string>
+    <string name="excuse_me">Excuse me!</string>
+    <string name="how_much_is_this">How much\n does this\n cost?</string>
+    <string name="i_will_have_this">I will have\n this...</string>
+    <string name="please">Please</string>
+    <string name="thank_you">Thank you</string>
+    <string name="cup_of_water">Where can\n I find a\n glass of\n water?</string>
+    <string name="where_do">Where do\n I go?</string>
+    <string name="where_bathroom">Where is\n the\n bathroom?</string>
+    <string name="where_place">Where is\n this\n place?</string>
+    <string name="hello">Hello</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="spinner_name">AndroidSpinnerExample</string>
+</resources>

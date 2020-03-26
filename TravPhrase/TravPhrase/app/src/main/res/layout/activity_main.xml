@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="600dp"
+        android:prompt="@string/spinner_name"
+        app:layout_constraintBottom_toBottomOf="@+id/woodView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/grid"
+        android:layout_width="398dp"
+        android:layout_height="529dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:alpha="1"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="6">
+
+        <Button
+            android:id="@+id/excuse"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="0"
+            android:text="@string/excuse_me"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/bye"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="1"
+            android:text="@string/goodbye"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/hello"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="2"
+            android:text="@string/hello"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/howmuch"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="3"
+            android:text="@string/how_much_is_this"
+            android:textAllCaps="true"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/iwill"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="4"
+            android:text="@string/i_will_have_this"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/please"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="5"
+            android:text="@string/please"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/thankyou"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="6"
+            android:text="@string/thank_you"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/where_water"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="7"
+            android:text="@string/cup_of_water"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/where_go"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="8"
+            android:text="@string/where_do"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/where_bath"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="9"
+            android:text="@string/where_bathroom"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/where_place"
+            android:layout_height="50dp"
+            android:onClick="play"
+            android:tag="10"
+            android:text="@string/where_place"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ImageView
+        android:id="@+id/woodView"
+        android:layout_width="419dp"
+        android:layout_height="719dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wooded" />
+
+    <ImageView
+        android:id="@+id/wineView"
+        android:layout_width="434dp"
+        android:layout_height="617dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/woodView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wine" />
+
+    <ImageView
+        android:id="@+id/desertView"
+        android:layout_width="419dp"
+        android:layout_height="611dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="@+id/woodView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/desert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
