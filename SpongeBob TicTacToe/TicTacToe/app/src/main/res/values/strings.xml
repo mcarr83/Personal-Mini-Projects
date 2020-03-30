@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpongeBob TicTacToe</string>
+    <string name="restart">Play Again?</string>
+</resources>
